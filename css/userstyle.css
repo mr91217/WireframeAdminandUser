@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-body img {
+    border-radius: 50%;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.progress-bar {
+    background-color: #4e73df;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1rem !important;
+}
+
+.px-3, .py-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
