@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f9fc;
+    color: #5a5c69;
+    font-family: 'Nunito', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    padding: 0;
+    flex-direction: column;
+    align-items: start;
+    background-color: #4e73df;
+}
+
+.sidebar .navbar-brand {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 0; /* Remove extra space below the brand */
+}
+
+.sidebar .navbar-collapse {
+    padding: 0; /* Remove padding from the collapse element */
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-link {
+    padding: 0.75rem 1rem;
+    color: white;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #2e59d9;
+}
+
+.container-fluid {
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 1rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, .15);
+    border: none;
+}
+
+.card-title {
+    font-weight: 700;
+    color: #4e73df;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.badge {
+    float: right;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
